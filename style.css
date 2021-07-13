@@ -1,3 +1,17 @@
-body { color: brown; background: silver; }
-a { color: green: }
-a: visited { color:: rgb(270,10,305) }
+body {
+    color: brown;
+    background: silver;
+}
+
+a {
+    color: green;
+}
+
+a:visited {
+    color: rgb(270, 10, 305);
+}
+
+h1 {
+    text-align: center;
+    color: maroon;
+}
