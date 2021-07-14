@@ -1,17 +1,36 @@
-body {
-    color: brown;
-    background: silver;
+body { 
+	color: brown;
+	background: silver;
+	font-family: Arial;
 }
 
 a {
-    color: green;
+	color: green; 
 }
 
 a:visited {
-    color: rgb(270, 10, 305);
+	color:: rgb(270,10,305); 
+}
+
+p {
+	text-align: left;
+	line-height: 140%;
+	text-indent: 40px;
+	word-spacing: 5px;
+}
+
+aside p {
+	text-align: right;
 }
 
 h1 {
-    text-align: center;
-    color: maroon;
+	text-align: center;
+	color: maroon;
+	font-family: Geneva;
+}
+
+h3 {
+	text-align: center;
+	color: rgb(300,240,125);
+	font-family: sans-selif;
 }
