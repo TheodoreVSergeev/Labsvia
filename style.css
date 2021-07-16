@@ -3,32 +3,26 @@ body {
 	background: silver;
 	font-family: Arial;
 }
-
 a {
 	color: green; 
 }
-
 a:visited {
 	color:: rgb(270,10,305); 
 }
-
 p {
 	text-align: left;
 	line-height: 140%;
 	text-indent: 40px;
 	word-spacing: 5px;
 }
-
 aside p {
 	text-align: right;
 }
-
 h1 {
 	text-align: center;
 	color: maroon;
 	font-family: Geneva;
 }
-
 h3 {
 	text-align: center;
 	color: rgb(300,240,125);
@@ -39,4 +33,7 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+ul {
+	list-style-type: none;
 }
