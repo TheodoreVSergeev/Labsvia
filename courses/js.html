@@ -3,18 +3,19 @@
 <head>
 	<title>Курсы JavaScript</title>
 <style>
+tbody tr:nth-child(2n+1){
+background-color: gray;
+}
 table{
 border-spacing: 0px;
 }
-thead{ 
-background-color: red;
+thead tr{ 
+background-color: black;
+color: white;
 text-align: center;
 }
-tbody{
-background-color: purple;
-}
 tfoot{
-background-color: maroon;
+background-color: coral;
 text-align: right;
 }
 th{
@@ -26,21 +27,17 @@ text-align: right;
 	<table>
 		<caption>Курсы JavaScript</caption>
 		<thead>
-			<tr><td>Название</td>td>Ак.часов</td></tr>
+			<tr><td>Название</td><td>Ак.часов</td></tr>
 		</thead>
+		<tbody>
+			<tr><td>JavaScript. Уровень 1. Основы веб-программирования</td><th>24</th></tr>
+			<tr><td>JavaScript. Уровень 2. Расширенные возможности</td><th>16</th></tr>
+			<tr><td>Использование jQuery</td><th>16</th></tr>
+			<tr><td>JavaScript. Уровень 3-б. AJAX. Разработка веб-приложений для Web 2.0</td><th>24</th></tr>
+		</tbody>
 		<tfoot>
 			<tr><td>Всего Ак. часов</td><th>80</th></tr>
 		</tfoot>
-		<tbody>
-			<tr><td>JavaScript. Уровень 1. Основы веб-программирования</td>	<th>24</th></tr>
-		</tbody>
-		<tr><td>JavaScript. Уровень 2. Расширенные возможности</td><th>	16</th></tr>
-		<tbody>
-			<tr><td>Использование jQuery</td><th>16</th></tr>
-		</tbody>
-		<tr><td>JavaScript. Уровень 3-б. AJAX. Разработка веб-приложений для Web 2.0</td>	<th>24</th></tr>
-		
-		
 	</table>
 </body>
 </html>	
