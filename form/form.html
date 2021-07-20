@@ -1,29 +1,36 @@
 ﻿<!DOCTYPE html>
 <html>
-	<head>
-		<title>Форма обратной связи</title>
-	</head>
-	<body>
-		<h1>Давайте познакомимся</h1>
-		<!-- Начало формы -->
-		Ваше имя: <!-- Текстовое поле -->
-		Ваша фамилия: <!-- Текстовое поле -->
-		Кто вы?  <!-- Радио кнопки -->
-			мужчина <!-- не надо оборачивать в label --> 
-			женщина <!-- не надо оборачивать в label -->
-		Чем занимаетесь?  <!-- Выпадающий список -->
-			школьник
-			студент
-			безработный
-			рабочий класс
-			офисный планктон
-			креативный класс
-			интеллигент
-			олигарх
-		Напишите коротко о себе:  <!-- Текст -->
-		Я не буду воровать записи курсов <!-- Флажок -->
-		Послать отзыв <!-- Кнопка для отправки формы -->
-		Очистить форму	<!-- Кнопка для очистки формы -->
-		<!-- Конец формы -->
-	</body>
+<head>
+	<title>Форма обратной связи</title>
+	<style>
+		h1 {
+		text-align: center; color: brown;
+		}
+		body {
+		color: blue ;
+		}
+	</style>
+</head>
+<body>
+	<h1>Давайте познакомимся</h1>
+<form action="">
+	Ваше имя: <input type="text" name="t"/><br/>
+	Ваша фамилия: <input type="text" name="t"/><br/>
+	Кто вы? <input type="radio" name="r" value="0"/>мужчина <input type="radio" name="r" value="1"/>женщина<br/>
+	Чем занимаетесь? <select name="book" size="1" multiple>
+		<option value="1">школьник</option>
+		<option value="2">студент</option>
+		<option value="3">безработный</option>
+		<option value="4">рабочий класс</option>
+		<option value="5">офисный планктон</option>
+		<option value="6">креативный класс</option>
+		<option value="7">интеллигент</option>
+		<option value="8">олигарх</option>
+	</select><br/>
+	<textarea name="msg" cols="19" rows="2">Напишите коротко о себе:</textarea><br/>
+	Я не буду воровать записи курсов <input type="checkbox" name="c" id="chk"/><br/>
+	<input type="submit" value="Послать отзыв"/> <!-- Кнопка для отправки формы -->
+	<input type="reset" value="Очистить форму"/>
+</form><!-- Конец формы -->
+</body>
 </html>
