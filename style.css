@@ -31,9 +31,13 @@ h3 {
 .center {
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  
+  margin-right: auto; 
 }
 ul {
 	list-style-type: none;
+}
+iframe {
+	width: 41%;
+	height: 172px;
+	border: none;
 }
