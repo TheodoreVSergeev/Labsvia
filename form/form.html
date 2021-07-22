@@ -3,12 +3,35 @@
 <head>
 	<title>Форма обратной связи</title>
 	<style>
-		h1 {
-		text-align: center; color: brown;
-		}
-		body {
-		color: blue ;
-		}
+	
+h1 {
+	text-align: left; color: brown;
+}
+		
+body {
+	color: blue ;
+}
+
+input[name="t"] {
+	
+}
+
+form {
+	width: 300px;
+	height: 500px;
+
+}
+
+textarea {
+	width: 300px;
+	height: 200px;
+}
+
+select {
+	float: right;
+	margin-right: 0;
+}
+
 	</style>
 </head>
 <body>
@@ -16,7 +39,7 @@
 <form action="">
 	Ваше имя: <input type="text" name="t"/><br/>
 	Ваша фамилия: <input type="text" name="t"/><br/>
-	Кто вы? <input type="radio" name="r" value="0"/>мужчина <input type="radio" name="r" value="1"/>женщина<br/>
+	Кто вы? <input type="radio" name="r" value="0"/><span>мужчина</span> <input type="radio" name="r" value="1"/><span>женщина</span><br/>
 	Чем занимаетесь? <select name="book" size="1" multiple>
 		<option value="1">школьник</option>
 		<option value="2">студент</option>
