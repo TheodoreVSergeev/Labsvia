@@ -5,7 +5,8 @@
 	<style>
 	
 h1 {
-	text-align: left; color: brown;
+	text-align: left;
+	color: brown;
 }
 		
 body {
@@ -26,16 +27,20 @@ textarea {
 
 select,
 [name="c"],
-input[type="reset"],
 input[name="t1"],
 input[name="t2"],
-label,
-input[type="submit"] {
+input[type="reset"],
+div {
 	float: right;
 }
 
 br {
 	clear: both;
+}
+
+input[type="submit"] {
+	margin-left: 23%;
+	
 }
 
 	</style>
@@ -45,7 +50,12 @@ br {
 <form action="">
 	Ваше имя: <input type="text" name="t1"/><br/>
 	Ваша фамилия: <input type="text" name="t2"/><br/>
-	Кто вы? <label><input type="radio" name="r1" value="0" />мужчина</label> <label><input type="radio" name="r2" value="1"/>женщина</label><br/>
+	Кто вы? <div>
+		<input type="radio" id="r1" name="r"value="мужчина" />
+			<label for="r1">мужчина</label>
+		<input type="radio" id="r2" name="r" value="женщина"/>
+			<label for="r2">женщина</label>
+	</div><br/>
 	Чем занимаетесь? <select name="book" size="1" multiple>
 		<option value="1">школьник</option>
 		<option value="2">студент</option>
@@ -58,8 +68,8 @@ br {
 	</select><br/>
 	<textarea name="msg" cols="19" rows="2">Напишите коротко о себе:</textarea><br/>
 	Я не буду воровать записи курсов <input type="checkbox" name="c" id="chk"/><br/>
-	<input type="reset" value="Очистить форму"/>
 	<input type="submit" value="Послать отзыв"/> <!-- Кнопка для отправки формы -->
+	<input type="reset" value="Очистить форму"/>
 </form><!-- Конец формы -->
 </body>
 </html>
