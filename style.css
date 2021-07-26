@@ -41,3 +41,6 @@ iframe {
 	height: 172px;
 	border: none;
 }
+ul.bot li {
+	display: inline;
+}
