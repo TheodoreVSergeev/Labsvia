@@ -1,0 +1,55 @@
+body { 
+	color: black;
+	background: white;
+	font-family: Arial;
+}
+p {
+	text-align: left;
+	line-height: 140%;
+	text-indent: 40px;
+	word-spacing: 5px;
+}
+aside p {
+	text-align: right;
+}
+h1 {
+	text-align: center;
+	color: black;
+	font-family: Geneva;
+}
+h3 {
+	text-align: center;
+	color: black;
+	font-family: sans-selif;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+ul {
+	list-style-type: none;
+}
+iframe {
+	width: 45%;
+	height: 172px;
+	border: none;
+}
+ul.bot li {
+	display: none;
+}
+nav {
+	display: none;
+}
+img {
+	display: none;
+}
+a {
+	display: none;
+}
+aside p#teta{
+	display: none;
+}
+aside img {
+	display: none;
+}
